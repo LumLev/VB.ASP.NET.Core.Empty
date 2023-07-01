@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Welcome to VB.ASP.NET Core using static files</h1>
+    <br />
+    
+    <h2 style="color: blue">The Counter: <slot id="TheCounter">0</slot> </h2>
+    <button onclick="Increment()">Increment</button>
+
+    <script>
+        let counterValue = 0;
+        function Increment() { counterValue++; document.getElementById("TheCounter").innerText = counterValue.toString(); }
+    </script>
+
+
+
+</body>
+</html>
