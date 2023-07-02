@@ -5,7 +5,7 @@ Module Program
         Dim builder = WebApplication.CreateBuilder(args)
         Dim app = builder.Build()
 
-        If app.Environment.IsDevelopment() == False Then
+        If app.Environment.IsDevelopment() = False Then
             app.UseHsts()
         End If
         app.UseDefaultFiles()
