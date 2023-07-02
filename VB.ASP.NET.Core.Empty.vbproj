@@ -6,6 +6,10 @@
 	  <Nullable>enable</Nullable>
 	  <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\WeatherForecast.vb~RFb1d29b1.TMP" />
+  </ItemGroup>
 	<ItemGroup>
 		<Import Include="Microsoft.AspNetCore.Builder" />
 		<Import Include="Microsoft.AspNetCore.Hosting" />

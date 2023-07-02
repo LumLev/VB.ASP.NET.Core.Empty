@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="appstyle.css" rel="stylesheet" />
     <title>Document</title>
 </head>
 <body>
+    <div>
+        <h1>Welcome to VB.ASP.NET Core using static files</h1>
+        <br />
 
-    <h1>Welcome to VB.ASP.NET Core using static files</h1>
-    <br />
-    
-    <h2 style="color: blue">The Counter: <slot id="TheCounter">0</slot> </h2>
-    <button onclick="Increment()">Increment</button>
+        <h2> Try new method </h2> <button onclick="doSmthNew()"> Try new</button>
+    </div>
+    <div>
+        <div style="border: 3px solid black; min-width:1rem; min-height: 1rem;" id="weatherSlot">
 
-    <script>
-        let counterValue = 0;
-        function Increment() { counterValue++; document.getElementById("TheCounter").innerText = counterValue.toString(); }
-    </script>
+        </div>
+    </div>
+
+
+    <script src="script.js" type="text/javascript"> </script>
 
 
 
