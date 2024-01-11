@@ -2,22 +2,8 @@
 
   <PropertyGroup>
     <RootNamespace>ConsoleApp5</RootNamespace>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
 	  <Nullable>enable</Nullable>
 	  <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-	<ItemGroup>
-		<Import Include="Microsoft.AspNetCore.Builder" />
-		<Import Include="Microsoft.AspNetCore.Hosting" />
-		<Import Include="Microsoft.AspNetCore.Http" />
-		<Import Include="Microsoft.AspNetCore.Routing" />
-		<Import Include="Microsoft.Extensions.Configuration" />
-		<Import Include="Microsoft.Extensions.DependencyInjection" />
-		<Import Include="Microsoft.Extensions.Hosting" />
-		<Import Include="Microsoft.Extensions.Logging" />
-		<Import Include="System.IO" />
-		<Import Include="System.Net.Http" />
-		<Import Include="System.Net.Http.Json" />
-		<Import Include="System.Threading" />
-	</ItemGroup>
 </Project>
